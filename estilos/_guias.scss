@@ -6,3 +6,7 @@
   );
   border: $color map-get($opciones, quote($level));
 }
+
+body{
+  @include guia(black, 1);
+}
