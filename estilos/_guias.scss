@@ -1,0 +1,8 @@
+@mixin guia($color, $level) {
+  $opciones: (
+    "1": rem(3px) dotted,
+    "2": rem(2px) dashed,
+    "3": rem(1px) solid,
+  );
+  border: $color map-get($opciones, quote($level));
+}
