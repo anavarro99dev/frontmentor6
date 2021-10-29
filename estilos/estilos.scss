@@ -35,8 +35,8 @@ main {
   section#head {
     text-align: center;
     h1 {
-      font-weight: lighter;
-      font-size: xx-large;
+      font-weight: 200;
+      font-size: rem(40px);
       &:last-of-type {
         color: $Very_Dark_Blue;
         font-weight: 800;

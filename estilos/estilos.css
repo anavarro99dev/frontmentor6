@@ -432,8 +432,8 @@ main section#head {
 }
 
 main section#head h1 {
-  font-weight: lighter;
-  font-size: xx-large;
+  font-weight: 200;
+  font-size: 2.5rem;
 }
 
 main section#head h1:last-of-type {
