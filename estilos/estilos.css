@@ -1,4 +1,5 @@
 /* Box sizing rules */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Red+Hat+Display:wght@500&display=swap");
 *,
 *::before,
 *::after {
@@ -76,7 +77,304 @@ select {
   }
 }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 46.875rem) {
+  .flex-center {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.flex-row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-col {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main ul li {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 1.25rem 0rem;
+  padding: 1.5625rem 1.25rem;
+  background-color: white;
+  border-radius: 0.3125rem;
+  -webkit-box-shadow: 0.3125rem 0.3125rem 1.25rem -0.625rem black;
+          box-shadow: 0.3125rem 0.3125rem 1.25rem -0.625rem black;
+}
+
+main ul li img {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+footer {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 46.875rem) {
+  .flex-center {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.flex-row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-col {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 46.875rem) {
+  main {
+    margin: 6.25rem 1.5625rem;
+  }
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 46.875rem) {
+  .flex-center {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.flex-row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-col {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 46.875rem) {
+  .flex-center {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.flex-row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-col {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  border: black 0.1875rem dotted;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #fafafa;
+}
+
+main section#head h1 {
+  font-weight: lighter;
+  font-size: x-large;
+  opacity: 0.5;
+}
+
+main section#head h1:last-of-type {
+  font-family: "Inter", sans-serif;
+  opacity: 0.7;
+  margin-bottom: 0.625rem;
+}
+
+main section#head p {
+  font-size: medium;
+  opacity: 0.3;
+}
+
+main ul li h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: large;
+  opacity: 0.7;
+}
+
+main ul li p {
+  opacity: 0.5;
+}
+
+main ul li:nth-child(1) {
+  border-top: #45d3d3 solid 0.25rem;
+}
+
+main ul li:nth-child(2) {
+  border-top: #ea5353 solid 0.25rem;
+}
+
+main ul li:nth-child(3) {
+  border-top: #fcaf4a solid 0.25rem;
+}
+
+main ul li:nth-child(4) {
+  border-top: #549ef2 solid 0.25rem;
+}
+
+footer {
+  text-align: center;
+  color: darkgreen;
+  font-style: italic;
+}
+
+footer a {
+  color: darkgrey;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 46.875rem) {
+  body {
+    text-align: center;
+  }
+  main section#head p {
+    padding: 0rem 1rem;
+  }
+  main ul li {
+    text-align: initial;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */

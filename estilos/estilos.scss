@@ -1,5 +1,118 @@
-@import "movil";
+// Estilos
 @import "reset";
 @import "desktop";
+@import "movil";
 @import "util";
 @import "guias";
+
+// Variables:
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Red+Hat+Display:wght@500&display=swap");
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+$Very_Dark_Blue: hsl(234, 12%, 34%);
+$Grayish_Blue: hsl(229, 6%, 66%);
+$Very_Light_Gray: hsl(0, 0%, 98%);
+
+// _Reset Personalizado.
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+// Estilos Desktop.
+body {
+  font-size: rem(15px);
+  font-weight: 400;
+  // font-family: "Inter", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: $Very_Light_Gray;
+}
+
+main {
+  section#head {
+    h1 {
+      font-weight: lighter;
+      font-size: x-large;
+      &:last-of-type {
+        font-family: "Inter", sans-serif;
+        opacity: 0.7;
+        margin-bottom: rem(10px);
+      }
+      opacity: 0.5;
+    }
+    p {
+      font-size: medium;
+      opacity: 0.3;
+    }
+  }
+  ul {
+    li {
+      h2 {
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: large;
+        opacity: 0.7;
+      }
+      p {
+        opacity: 0.5;
+      }
+      &:nth-child(1) {
+        border-top: $Cyan solid rem(4px);
+      }
+      &:nth-child(2) {
+        border-top: $Red solid rem(4px);
+      }
+      &:nth-child(3) {
+        border-top: $Orange solid rem(4px);
+      }
+      &:nth-child(4) {
+        border-top: $Blue solid rem(4px);
+      }
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  color: darkgreen;
+  font-style: italic;
+  a {
+    color: darkgrey;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+    &:hover {
+      color: black;
+      font-weight: normal;
+      text-decoration: none;
+    }
+  }
+}
+
+// Estilos Movil
+@include movil {
+  body {
+    text-align: center;
+  }
+
+  main {
+    section#head {
+      h1 {
+      }
+      p {
+        padding: rem(0px) rem(16px);
+      }
+    }
+    ul {
+      li {
+        text-align: initial;
+      }
+    }
+  }
+
+  footer {
+  }
+}

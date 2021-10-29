@@ -15,3 +15,33 @@
 @function vh($size) {
   @return 766px/100 * $size/1vh * 1rem/16px;
 }
+
+.flex {
+  display: flex;
+  @include movil {
+  }
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include movil {
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+
+
+.flex-row {
+  flex-direction: column;
+  @include movil {
+  }
+}
+
+.flex-col {
+  flex-direction: row;
+  flex-wrap: wrap;
+  @include movil {
+  }
+}

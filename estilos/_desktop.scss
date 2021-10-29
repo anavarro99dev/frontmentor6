@@ -1,0 +1,33 @@
+// Vista Desktop
+@import "util";
+
+body {
+}
+
+main {
+  section#head {
+  }
+  ul {
+    li {
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin: rem(20px) rem(0px);
+      padding: rem(25px) rem(20px);
+      background-color: white;
+      border-radius: rem(5px);
+      box-shadow: rem(5px) rem(5px) rem(20px) rem(-10px) black;
+      h2 {
+      }
+      p {
+      }
+      img {
+        align-self: flex-end;
+      }
+    }
+  }
+}
+
+footer {
+  flex-basis: 100%;
+  align-self: flex-end;
+}
