@@ -1,5 +1,5 @@
 /* Box sizing rules */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Red+Hat+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap");
 *,
 *::before,
 *::after {
@@ -167,12 +167,12 @@ main ul li {
   padding: 1.5625rem 1.875rem;
   background-color: white;
   border-radius: 0.3125rem;
-  -webkit-box-shadow: 0.3125rem 0.3125rem 1.25rem -0.625rem black;
-          box-shadow: 0.3125rem 0.3125rem 1.25rem -0.625rem black;
+  -webkit-box-shadow: 0.3125rem 0.3125rem 0.625rem -0.625rem black;
+          box-shadow: 0.3125rem 0.3125rem 0.625rem -0.625rem black;
   max-height: 15.625rem;
   margin: 0.9375rem 0.9375rem;
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
 }
 
 main ul li img {
@@ -420,10 +420,10 @@ ul {
 }
 
 body {
+  font-family: 'Poppins', sans-serif;
   font-size: 0.9375rem;
   font-weight: 400;
   color: #a3a5ae;
-  font-family: "Red Hat Display", sans-serif;
   background-color: #fafafa;
 }
 
@@ -438,7 +438,6 @@ main section#head h1 {
 
 main section#head h1:last-of-type {
   color: #4c4e61;
-  font-family: "Inter", sans-serif;
   font-weight: 800;
   margin-bottom: 0.9375rem;
 }
@@ -448,7 +447,6 @@ main section#head p {
 }
 
 main ul li h2 {
-  font-family: "Inter", sans-serif;
   font-weight: 800;
   font-size: large;
   color: #4c4e61;
@@ -495,7 +493,7 @@ footer a:hover {
     text-align: center;
   }
   main section#head h1 {
-    font-size: x-large;
+    font-size: 1.6875rem;
   }
   main ul li {
     text-align: initial;
