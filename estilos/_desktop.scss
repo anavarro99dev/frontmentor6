@@ -5,35 +5,31 @@ body {
 }
 
 main {
-  margin: rem(70px);
   max-width: 90%;
+  margin: rem(70px) rem(0px);
   section#head {
     max-width: 45%;
-    align-self: center;
     margin-bottom: rem(50px);
+    align-self: center;
   }
   ul {
     justify-content: center;
     align-content: center;
     li {
-      max-height: rem(250px);
       justify-content: flex-start;
       align-items: flex-start;
-      margin: rem(15px) rem(15px);
       padding: rem(25px) rem(30px);
       background-color: white;
       border-radius: rem(5px);
       box-shadow: rem(5px) rem(5px) rem(20px) rem(-10px) black;
-      h2 {
-      }
-      p {
-      }
       img {
         align-self: flex-end;
         margin-top: rem(40px);
       }
-
-      flex-basis: 30%;
+      
+      max-height: rem(250px);
+      margin: rem(15px) rem(15px);
+      flex-basis: 25%;
       &:nth-child(1) {
         position: relative;
         top: rem(125px);

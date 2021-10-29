@@ -6,23 +6,30 @@
   }
 
   main {
-    margin: rem(100px) rem(25px);
+    margin: rem(100px) rem(0px);
     section#head {
-      h2{
-
-      }
-      p{
-
-      }
+      max-width: 100%;
+      margin-bottom: auto;
+      align-self: initial;
     }
     ul {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-content: flex-start;
       li {
         margin: rem(20px) rem(0px);
-        h2 {
+        max-height: initial;
+        flex-basis: 100%;
+        &:nth-child(1) {
+          position: static;
         }
-        p {
+        &:nth-child(2) {
         }
-        img {
+        &:nth-child(3) {
+          position: static;
+        }
+        &:nth-child(4) {
         }
       }
     }

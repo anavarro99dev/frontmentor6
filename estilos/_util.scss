@@ -34,15 +34,12 @@
 
 .flex-row {
   flex-direction: column;
-  @include movil {
-  }
+  flex-wrap: nowrap;
 }
 
 .flex-col {
   flex-direction: row;
   flex-wrap: wrap;
-  @include movil {
-  }
 }
 
 .grid{
