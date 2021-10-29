@@ -9,12 +9,15 @@
   border: $color map-get($opciones, quote($level));
 }
 
-// body{
-//   @include guia(blue, 1);
-//   & > *{
-//     @include guia(black, 2);
-//   }
-// }
+  // body{
+  //   @include guia(blue, 1);
+  //   & > *{
+  //     @include guia(black, 1);
+  //     & > *{
+  //       @include guia(green, 2);
+  //     }
+  //   }
+  // }
 
 // section#head{
 //   @include guia(blue, 3);
@@ -24,7 +27,7 @@
 // }
 
 // ul{
-//   @include guia(blue, 3);
+//   @include guia(blue, 1);
 //   li{
 //     @include guia(green, 1);
 //   }

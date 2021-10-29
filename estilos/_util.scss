@@ -32,7 +32,6 @@
   }
 }
 
-
 .flex-row {
   flex-direction: column;
   @include movil {
@@ -44,4 +43,12 @@
   flex-wrap: wrap;
   @include movil {
   }
+}
+
+.grid{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  row-gap: rem(25px);
+  column-gap: rem(25px);
 }
